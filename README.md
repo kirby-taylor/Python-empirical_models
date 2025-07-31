@@ -1,2 +1,19 @@
-# Predictive Modeling of Salvage Vehcile Pricing Using Real-World Data
-This repository serves as a hands-on portfolio of my transition from behavioral research to applied data science and engineering. It showcases my growing skills in Python programming, statistical modeling, and empirical reasoning.
+# PROJECT 1
+Name: Multiple Linear Regression for Real-World Pricing Models
+File: audi_price_analysis.ipynb
+
+**Problem**: 
+Standard valuation models (eg KBB, NADA) do not account for how salvage titles affect vehicle prices.
+
+**Approach**: 
+This project attempts to reverse-engineer how local dealerships price vehicles with salvage titles by modeling listing data using multiple linear regression.
+
+**Dataset**: 
+Collected data for 102 local Audi A3 and A4 vehicles for sale online, with 18 features per entry (e.g., mileage, trim, year, condition).  
+> Due to limited salvage listings for A3s, A4s were included to strengthen the regression.
+
+**Code Highlights:**  
+- Uses pandas and numpy for data processing and modeling.
+- Calculates R² score and regression coefficients.  
+- Estimates the pricing value of individual features.  
+- Outputs predicted listing price based on a vehicle’s attributes.
