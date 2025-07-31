@@ -1,6 +1,5 @@
-# PROJECT 1
-Name: Multiple Linear Regression for Real-World Pricing Models
-File: audi_price_analysis.ipynb
+# PROJECT 1 (audi_price_analysis.ipynb)
+**Name**: Multiple Linear Regression for Real-World Pricing Models
 
 **Problem**: 
 Standard valuation models (eg KBB, NADA) do not account for how salvage titles affect vehicle prices.
