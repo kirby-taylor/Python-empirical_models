@@ -24,18 +24,18 @@ Collected data for 102 local Audi A3 and A4 vehicles for sale online, with 18 fe
 - Accepts live vehicle input (via user prompt) and returns a real-time price prediction
 
 **How it Works**
-1. Preprocessing
-Boolean features (e.g., salvage, rims) are filled with 0
-Numeric values (e.g., milage, kbb_high) filled with median
-Categorical features (e.g., model, transmission) filled with mode and one-hot encoded
-2. Training
+**1. Preprocessing**
+- Boolean features (e.g., salvage, rims) are filled with 0
+- Numeric values (e.g., milage, kbb_high) filled with median
+- Categorical features (e.g., model, transmission) filled with mode and one-hot encoded
+**2. Training**
 - Dataset split 80/20 into training and test sets
 - Model trained using LinearRegression() from Scikit-learn
-3. Evaluation
+**3. Evaluation**
 - Compares model prediction vs. actual using R²
 - Includes a baseline prediction using KBB High value
 - Visuals show performance and feature impact
-4. Prediction
+**4. Prediction**
 - Accepts custom user input through prompts
 - Aligns user input to model structure
 - Outputs a price prediction with formatting
