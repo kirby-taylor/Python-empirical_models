@@ -1,0 +1,37 @@
+trim	
+- 0: manual
+- 1: prem
+- 2: prem+
+- 3: pres
+- 4: tit
+engine_capacity	
+- 0: 1.4
+- 1: 1.8
+- 2: 2.0
+Powertrain Configuration:	
+- 0: standard (base model, no specific designation)
+- 1: FSI 
+- 2: TFSI
+- 3: TDI (turbocharged direct injection)
+- 4: 40 TFSI
+- 5: 45 TFSI
+- 6: 50 TFSI or higher
+- 7: diesel (beyond TDI; eg- 2.0 TDI, 3.0 TDI)
+- 8: hybrid
+- 9: electric
+transmission	
+- 0: 5sp, man 
+- 3: 6sp, man 
+- 0: 5sp, auto, tiptronic
+- 2: 6sp, auto, tiptronic 
+- 6: 8sp, auto, tiptronic 
+- 1: 6sp, auto, s tronic 
+- 4: 7sp, auto, s tronic 
+- 5: cvt, multitronic 
+color	
+- 0: white
+- 1: black
+- 2: red
+- 3: silver
+- 4: gray
+- 5: blue
