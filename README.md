@@ -19,6 +19,7 @@ Collected data for 102 local Audi A3 and A4 vehicles for sale online, with 18 fe
 - Fits a linear regression model using Scikit-learn
 - Calculates:
 > R² score to evaluate model accuracy
+
 > Coefficients to estimate price influence of each feature
 - Accepts live vehicle input (via user prompt) and returns a real-time price prediction
 
