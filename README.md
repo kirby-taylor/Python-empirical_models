@@ -25,9 +25,9 @@ Collected data for 102 local Audi A3 and A4 vehicles for sale online, with 18 fe
 
 **How it Works**
 1. Preprocessing
-' - Boolean features (e.g., salvage, rims) are filled with 0
-'- Numeric values (e.g., milage, kbb_high) filled with median
-- Categorical features (e.g., model, transmission) filled with mode and one-hot encoded
+Boolean features (e.g., salvage, rims) are filled with 0
+Numeric values (e.g., milage, kbb_high) filled with median
+Categorical features (e.g., model, transmission) filled with mode and one-hot encoded
 2. Training
 - Dataset split 80/20 into training and test sets
 - Model trained using LinearRegression() from Scikit-learn
